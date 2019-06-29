@@ -33,7 +33,7 @@ function App() {
 
         <Route exact path="/" component={DashboardBody} />
         <Route path="/drivers" component={Drivers_Body} />
-        <Route path="/trip" component={TripDetail_Body} />
+        <Route path="/trip/:tripID" component={TripDetail_Body} />
       </Router>
       {/* <DashboardBody /> */}
       <Footer />

@@ -23,7 +23,7 @@ function Table() {
     getPromises();
   }, [gettrips]);
 
-  console.log(trips);
+  // console.log(trips);
 
   return (
     <>

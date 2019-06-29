@@ -34,7 +34,7 @@ function CarsNTrips(props) {
         <section id="driver-bio">
           <div>
             <h1>Cars and Trips</h1>
-            {console.log(props.data)}
+            {/* {console.log(props.data)} */}
             {/* <h1>{props.data.vehicleID} </h1> */}
             <h4>Number of Vehicles: {vehicles.length} </h4>
             <div style={{ display: 'flex' }}>

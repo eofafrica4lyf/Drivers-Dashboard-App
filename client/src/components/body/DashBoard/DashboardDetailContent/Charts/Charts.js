@@ -14,7 +14,7 @@ function Charts() {
       fetch('/api/stats')
         .then(res => res.json())
         .then(({ data }) => {
-          console.log(data);
+          // console.log(data);
           setDataChart([
             [data.male, data.female],
             [data.noOfCashTrips, data.noOfNonCashTrips],
