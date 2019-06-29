@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  flex: 1 0 50px;
+  background-color: #131924;
+}
+
+#root ul {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  border-bottom: 1px solid #84806e7a;
+  border-top: 1px solid #84806e7a;
+  background-color: #202a36;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#root ul li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 14px 100px;
+  font-size: 0.9em;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid white;
+  margin-left: 2px;
+  margin-right: 2px;
+  transition: 2s;
+}
+
+#root ul li:hover {
+  background-color: #ffffff5e;
+}
+
+#root ul li a {
+  text-decoration: none;
+}
+
+#root ul li:nth-child(last) {
+  background-color: blue;
+}
+
+#root ul li a span {
+  color: white;
+}
+
+/* #root ul li a span {
+
+} */
+
+.active {
+  color: red;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  background-color: #17202e;
+  min-height: calc(100vh - 100px);
+  height: auto;
+}
+
+main aside {
+  flex: 2 0 0;
+  /* border: 1px dotted aqua; */
+  border-right: 1px solid white;
+}
+
+.menu-item {
+  text-align: center;
+  padding: 40px 40px;
+  border: 1px solid white;
+  border-right: none;
+}
+
+main section {
+  flex: 6 0 0;
+  padding: 20px;
+}
+
+div#charts {
+  display: flex;
+  height: 500px;
+  /* border: 1px dotted; */
+  /* margin-bottom: 4em; */
+}
+
+#charts div {
+  flex: 1 0 auto;
+  border-radius: 5px;
+  background-color: #202a36;
+  margin: 2em;
+  padding: 0em 2em 2em 2em;
+  /* box-shadow: 0 2px 0 rgba(90,97,105,.11),0 4px 8px rgba(90,97,105,.12),0 10px 10px rgba(90,97,105,.06),0 7px 70px rgba(90,97,105,.1); */
+}
+
+section hr {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  color: black;
+  border-color: #3f7777;
+  border-width: 0.03em;
+  width: 96%;
+}
+
+#users-chart {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#table {
+  padding: 2em;
+  margin: 2em;
+  border-radius: 5px;
+  background-color: #202a36;
+}
+
+#footer {
+  flex: 1 0 50px;
+  background-color: #131924;
+  border-top: 1px solid;
+}
+
+.TFtable {
+  width: 100% !important;
+  border-collapse: collapse;
+  color: white;
+  padding: 3em;
+}
+.TFtable td {
+  padding: 9px;
+  /* border:#9ea9b8 1px solid; */
+}
+.TFtable th {
+  padding: 12px;
+  text-align: left !important;
+}
+/* provide some minimal visual accomodation for IE8 and below */
+.TFtable tr {
+  background: #b8d1f3;
+}
+/*  Define the background color for all the ODD background rows  */
+.TFtable thead tr {
+  /* background: aqua !important; */
+  color: white;
+  background: #101961 !important;
+}
+.TFtable tr:nth-child(odd) {
+  background: #202a36;
+}
+/*  Define the background color for all the EVEN background rows  */
+.TFtable tr:nth-child(even) {
+  background: #17202e;
+}
+/*Making the table scrollable*/
+.TFtable tbody {
+  display: block;
+  overflow: auto;
+  height: 200px;
+  width: 100%;
+}
+.fa {
+  color: white;
+}
+/* .TFtable thead tr{
+  display:block;
+} */
+/**
+Drivers Page
+*/
+
+#drivers #main aside div {
+  transition: 1s;
+}
+#drivers #main aside div:hover {
+  background-color: #ffffff5e;
+}
+.active-driver {
+  background-color: #fff;
+  color: black;
+}
+tr {
+  display: flex;
+}
+tr td:nth-child(1),
+tr th:nth-child(1) {
+  flex: 1 0 0;
+  text-align: left;
+}
+tr td:nth-child(2),
+tr th:nth-child(2) {
+  flex: 5 0 0;
+  text-align: left;
+}
+tr td:nth-child(3),
+tr th:nth-child(3) {
+  flex: 5 0 0;
+  text-align: left;
+}
+tr td:nth-child(4),
+tr th:nth-child(4) {
+  flex: 5 0 0;
+  text-align: left;
+}
+
+#driverdetail div {
+  background: #202a36;
+  border-radius: 5px;
+}
+
+#driver-bio img {
+  width: 200px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid;
+}
+
+#driver-bio > div {
+  border: 1px solid #ffffff59;
+  padding: 1em;
+}
