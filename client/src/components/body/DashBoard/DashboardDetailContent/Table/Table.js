@@ -47,7 +47,7 @@ function Table() {
                 return (
                   <tr key={row.user.name}>
                     <td style={{ textAlign: 'center' }}>
-                      <Link to="drivers">
+                      <Link to={`/trip/${row.tripID}`}>
                         <i className="fa fa-info-circle" />
                       </Link>
                     </td>
