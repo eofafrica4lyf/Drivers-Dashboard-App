@@ -41,7 +41,7 @@ body {
 #root ul li {
   list-style: none;
   text-transform: uppercase;
-  padding: 14px 100px;
+  /* padding: 14px 100px; */
   font-size: 0.9em;
   background-color: rgba(255, 255, 255, 0.12);
   border: 1px solid white;
@@ -56,6 +56,8 @@ body {
 
 #root ul li a {
   text-decoration: none;
+  display: inline-block;
+  padding: 14px 100px;
 }
 
 #root ul li:nth-child(last) {
@@ -240,4 +242,12 @@ tr th:nth-child(4) {
 #driver-bio > div {
   border: 1px solid #ffffff59;
   padding: 1em;
+}
+
+span#driver-names {
+  font-size: 2em;
+}
+
+#root {
+  background-color: #17202e;
 }

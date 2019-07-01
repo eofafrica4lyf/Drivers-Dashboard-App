@@ -24,11 +24,11 @@ function App() {
               <span>Drivers</span>
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink activeClassName="active" to="/trip">
               <span>Trip Detail</span>
             </NavLink>
-          </li>
+          </li> */}
         </ul>
 
         <Route exact path="/" component={DashboardBody} />

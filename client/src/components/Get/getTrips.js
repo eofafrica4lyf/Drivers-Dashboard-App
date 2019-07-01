@@ -15,6 +15,8 @@ function useFetchWholeData(url) {
     fetchTrips();
     // eslint-disable-next-line
   }, [url]);
+  console.log('List of trips was first called');
+  console.log(data, loading);
 
   return [data, loading];
 }
