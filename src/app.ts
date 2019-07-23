@@ -50,7 +50,7 @@ app.use(
   }),
 );
 
-const clientDirectory = path.join(__dirname, '../', 'client/build');
+const clientDirectory = path.join(__dirname, '../', 'client/public');
 if (fs.existsSync(clientDirectory) && process.env.NODE_ENV !== 'development') {
   app.use(express.static(clientDirectory));
 
