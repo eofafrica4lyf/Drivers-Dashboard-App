@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/eofafrica4lyf/Drivers-Dashboard-App.svg?style=svg)](https://circleci.com/gh/eofafrica4lyf/Drivers-Dashboard-App)
+
 # Exercise React
 
 Run the server with
