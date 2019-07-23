@@ -34,6 +34,7 @@ function TripDetail_Body(props) {
         {tripData.driver ? (
           <>
             <img
+              alt="gender"
               style={{
                 textAlign: 'center',
                 width: '13%',
